@@ -12,5 +12,9 @@ setup(
     install_requires=[
         'plivo',
         'urllib3[secure]',
+    ],
+    setup_requires=[
+        'plivo',
+        'urllib3[secure]',
     ]
 )
